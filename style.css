@@ -1,0 +1,21 @@
+body{
+    background: rgb(233,255,48);
+    background: linear-gradient(90deg, rgba(233,255,48,.1) 0%, rgba(255,175,0,1) 100%);
+}
+.heading{
+    font-size: 50px;
+    font-weight: 400;
+}
+.hero{
+    background-image: url(https://i.ibb.co/5s4RCzk/51077698912-438b4a2c37-o-1.jpg);
+    height: 100vh;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    width: 500px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}

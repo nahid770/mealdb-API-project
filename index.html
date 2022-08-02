@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mealdb api project</title>
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- link css -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <section class="hero">
+        <h2 class="text-info text-center py-5  heading">Search your favourite Food</h2>
+        <!-- search box -->
+        <div class="input-group mb-3 mx-auto w-50 border-o">
+            <input id="search-field" type="text" class="form-control" placeholder="search your food" aria-label="Recipient's username" aria-describedby="button-addon2">
+            <button class="btn btn-info " type="button" onclick="getSearchValue()">Search</button>
+          </div>
+    </section>
+
+    <!-- load full detials -->
+    <div id="full-details" class="w-50 mx-auto my-5 border-2 border-secondary">
+        
+    </div>
+
+    <!-- display search result/cards -->
+    <div id="search-result" class="row row-cols-1 row-cols-md-4 mx-auto mt-5 g-4 container ">
+            
+    </div>
+
+    
+
+  
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      <script src="./app.js"></script>
+</body>
+</html>
